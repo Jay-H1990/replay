@@ -286,3 +286,10 @@ Click and watch the video demo below:
 
 [![Demo video that shows how to extend export options in Recorder panel by adding a Chrome extension](https://user-images.githubusercontent.com/5917927/172872574-15ad8bea-142a-4972-bf1d-bf1379a955ba.png)](https://youtu.be/TCxIfbxgypQ)
 If2cac2e16ddb913a87eef1f84639fb4c447cd85b
+$ MDG_GIT_URL_SRC=ssh://git@mozdevgroup.com:9889/git/openkiosk
+        $ git clone -r OPENKIOSK_115_9_0_RELEASE ssh://git@mozdevgroup.com:9889/git/okcd
+          password: git
+        $ make -f openkiosk-client.mk checkout
+        $ cd mozilla
+        $ ./mach build
+     
